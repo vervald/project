@@ -1,0 +1,126 @@
+19:59:04.661 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to ./chromedriver
+19:59:04.705 INFO - Java: Oracle Corporation 24.91-b01
+19:59:04.705 INFO - OS: Linux 3.19.0-47-generic amd64
+19:59:04.719 INFO - v2.50.1, with Core v2.50.1. Built from revision d7fc91b
+19:59:04.804 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform LINUX
+19:59:04.804 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform LINUX
+19:59:04.804 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+19:59:04.805 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+19:59:04.806 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{platform=MAC, browserName=safari, version=}] does not match the current platform LINUX
+19:59:04.897 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+19:59:04.897 INFO - Selenium Server is up and running
+19:59:05.204 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Overview Spec E2e}]])
+19:59:05.218 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Overview Spec E2e}]
+19:59:10.261 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Overview Spec E2e}]]
+19:59:10.274 INFO - Executing: [get: http://admin:admin@192.168.0.1])
+19:59:11.008 INFO - Done: [get: http://admin:admin@192.168.0.1]
+19:59:11.015 INFO - Executing: [find elements: By.cssSelector: frameset])
+19:59:11.269 INFO - Done: [find elements: By.cssSelector: frameset]
+19:59:11.273 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: frameset]])
+19:59:11.332 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: frameset]]
+19:59:11.338 INFO - Executing: [switch to frame: bottomLeftFrame])
+19:59:11.359 INFO - Done: [switch to frame: bottomLeftFrame]
+19:59:11.364 INFO - Executing: [find element: By.cssSelector: #a10])
+19:59:11.373 INFO - Done: [find element: By.cssSelector: #a10]
+19:59:11.376 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a10]])
+19:59:11.447 INFO - Done: [click: 2 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a10]]
+19:59:11.451 INFO - Executing: [switch to frame: default])
+19:59:11.477 INFO - Done: [switch to frame: default]
+19:59:11.480 INFO - Executing: [switch to frame: mainFrame])
+19:59:11.510 INFO - Done: [switch to frame: mainFrame]
+19:59:11.514 INFO - Executing: [find elements: By.cssSelector: #ssid])
+19:59:11.637 INFO - Done: [find elements: By.cssSelector: #ssid]
+19:59:11.642 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #ssid]])
+19:59:11.667 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #ssid]]
+19:59:11.673 INFO - Executing: [find element: By.cssSelector: #ssid])
+19:59:11.712 INFO - Done: [find element: By.cssSelector: #ssid]
+19:59:11.716 INFO - Executing: [clear: 3 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #ssid]])
+19:59:11.740 INFO - Done: [clear: 3 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #ssid]]
+19:59:11.744 INFO - Executing: [find element: By.cssSelector: #ssid])
+19:59:11.755 INFO - Done: [find element: By.cssSelector: #ssid]
+19:59:11.760 INFO - Executing: [send keys: 3 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #ssid], [t, e, r, m, i, n, a, l, -, 5, ]])
+19:59:12.430 INFO - Done: [send keys: 3 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #ssid], [t, e, r, m, i, n, a, l, -, 5, ]]
+19:59:12.439 INFO - Executing: [switch to frame: default])
+19:59:12.589 INFO - Done: [switch to frame: default]
+19:59:12.594 INFO - Executing: [switch to frame: bottomLeftFrame])
+19:59:12.610 INFO - Done: [switch to frame: bottomLeftFrame]
+19:59:12.614 INFO - Executing: [find element: By.cssSelector: #a12])
+19:59:12.622 INFO - Done: [find element: By.cssSelector: #a12]
+19:59:12.625 INFO - Executing: [click: 4 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a12]])
+19:59:12.690 INFO - Done: [click: 4 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a12]]
+19:59:12.693 INFO - Executing: [switch to frame: default])
+19:59:12.716 INFO - Done: [switch to frame: default]
+19:59:12.721 INFO - Executing: [switch to frame: mainFrame])
+19:59:12.840 INFO - Done: [switch to frame: mainFrame]
+19:59:12.846 INFO - Executing: [find element: By.cssSelector: #secType])
+19:59:12.853 INFO - Done: [find element: By.cssSelector: #secType]
+19:59:12.857 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #secType]])
+19:59:12.935 INFO - Done: [click: 5 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #secType]]
+19:59:12.940 INFO - Executing: [find element: By.cssSelector: #pskSecret])
+19:59:12.981 INFO - Done: [find element: By.cssSelector: #pskSecret]
+19:59:12.987 INFO - Executing: [send keys: 6 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #pskSecret], [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, ]])
+19:59:13.126 INFO - Done: [send keys: 6 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #pskSecret], [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, ]]
+19:59:14.131 INFO - Executing: [accept alert])
+19:59:14.159 INFO - Done: [accept alert]
+19:59:14.173 INFO - Executing: [switch to frame: default])
+19:59:14.342 INFO - Done: [switch to frame: default]
+19:59:14.345 INFO - Executing: [switch to frame: bottomLeftFrame])
+19:59:14.360 INFO - Done: [switch to frame: bottomLeftFrame]
+19:59:14.364 INFO - Executing: [find element: By.cssSelector: #a3])
+19:59:14.371 INFO - Done: [find element: By.cssSelector: #a3]
+19:59:14.374 INFO - Executing: [click: 7 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a3]])
+19:59:14.447 INFO - Done: [click: 7 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a3]]
+19:59:14.453 INFO - Executing: [switch to frame: default])
+19:59:14.466 INFO - Done: [switch to frame: default]
+19:59:14.471 INFO - Executing: [switch to frame: mainFrame])
+19:59:14.542 INFO - Done: [switch to frame: mainFrame]
+19:59:14.545 INFO - Executing: [find element: By.cssSelector: input[value="3"]])
+19:59:14.557 INFO - Done: [find element: By.cssSelector: input[value="3"]]
+19:59:14.561 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[value="3"]]])
+19:59:14.654 INFO - Done: [click: 8 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[value="3"]]]
+19:59:14.658 INFO - Executing: [find element: By.cssSelector: input[name=Save]])
+19:59:14.667 INFO - Done: [find element: By.cssSelector: input[name=Save]]
+19:59:14.670 INFO - Executing: [click: 9 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=Save]]])
+19:59:14.735 INFO - Done: [click: 9 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=Save]]]
+19:59:14.744 INFO - Executing: [switch to frame: default])
+19:59:14.752 INFO - Done: [switch to frame: default]
+19:59:14.755 INFO - Executing: [switch to frame: bottomLeftFrame])
+19:59:14.770 INFO - Done: [switch to frame: bottomLeftFrame]
+19:59:14.774 INFO - Executing: [find element: By.cssSelector: #a46])
+19:59:14.781 INFO - Done: [find element: By.cssSelector: #a46]
+19:59:14.784 INFO - Executing: [click: 10 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a46]])
+19:59:14.846 INFO - Done: [click: 10 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a46]]
+19:59:14.852 INFO - Executing: [find element: By.cssSelector: #a53])
+19:59:14.876 INFO - Done: [find element: By.cssSelector: #a53]
+19:59:14.880 INFO - Executing: [click: 11 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a53]])
+19:59:14.941 INFO - Done: [click: 11 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: #a53]]
+19:59:14.944 INFO - Executing: [switch to frame: default])
+19:59:14.972 INFO - Done: [switch to frame: default]
+19:59:14.976 INFO - Executing: [switch to frame: mainFrame])
+19:59:15.075 INFO - Done: [switch to frame: mainFrame]
+19:59:15.079 INFO - Executing: [find element: By.cssSelector: input[name=oldname]])
+19:59:15.092 INFO - Done: [find element: By.cssSelector: input[name=oldname]]
+19:59:15.096 INFO - Executing: [send keys: 12 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=oldname]], [a, d, m, i, n]])
+19:59:15.156 INFO - Done: [send keys: 12 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=oldname]], [a, d, m, i, n]]
+19:59:15.160 INFO - Executing: [find element: By.cssSelector: input[name=oldpassword]])
+19:59:15.169 INFO - Done: [find element: By.cssSelector: input[name=oldpassword]]
+19:59:15.173 INFO - Executing: [send keys: 13 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=oldpassword]], [a, d, m, i, n]])
+19:59:15.218 INFO - Done: [send keys: 13 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=oldpassword]], [a, d, m, i, n]]
+19:59:15.221 INFO - Executing: [find element: By.cssSelector: input[name=newname]])
+19:59:15.229 INFO - Done: [find element: By.cssSelector: input[name=newname]]
+19:59:15.233 INFO - Executing: [send keys: 14 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=newname]], [q, w, e, r, t, y]])
+19:59:15.274 INFO - Done: [send keys: 14 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=newname]], [q, w, e, r, t, y]]
+19:59:15.278 INFO - Executing: [find element: By.cssSelector: input[name=newpassword]])
+19:59:15.290 INFO - Done: [find element: By.cssSelector: input[name=newpassword]]
+19:59:15.294 INFO - Executing: [send keys: 15 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=newpassword]], [1, 2, 3, 4]])
+19:59:15.328 INFO - Done: [send keys: 15 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=newpassword]], [1, 2, 3, 4]]
+19:59:15.333 INFO - Executing: [find element: By.cssSelector: input[name=newpassword2]])
+19:59:15.344 INFO - Done: [find element: By.cssSelector: input[name=newpassword2]]
+19:59:15.348 INFO - Executing: [send keys: 16 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=newpassword2]], [1, 2, 3, 4, ]])
+19:59:15.395 INFO - Done: [send keys: 16 [[FirefoxDriver: firefox on LINUX (caf7a99f-8d4c-4b5d-9978-e24809572b76)] -> css selector: input[name=newpassword2]], [1, 2, 3, 4, ]]
+19:59:15.399 INFO - Executing: [delete session: 8139137b-b850-4978-aec0-2749df9cd31e])
+19:59:15.469 INFO - Done: [delete session: 8139137b-b850-4978-aec0-2749df9cd31e]
